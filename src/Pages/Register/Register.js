@@ -17,10 +17,11 @@ export default function Register() {
     dob: "",
     city: "",
     state: "",
-    // cohort: "",
+    cohort_id: "",
     // real_time: "",
     // goal_time: "",
     wheelchair: false,
+    race_id: 3,
   });
 
   useEffect(() => {
@@ -77,7 +78,8 @@ export default function Register() {
         dob: "",
         city: "",
         state: "",
-        // cohort: "",
+        cohort_id: "",
+        // _id: "",
         // real_time: "",
         // goal_time: "",
         wheelchair: false,
@@ -210,32 +212,34 @@ export default function Register() {
         <hr></hr>
 
         {/* COHORT SELECT */}
-        {/* <div className="container">
-          <label htmlFor="cohort">Cohort:</label>
+        {/* cohortGroups = ["Men 18-39", "Women 18-39","Men 40-49", "Women 40-49","Men 50-59", "Women 50-59",
+"Men 60-69", "Women 60-69", "Men 70+", "Women 70+","Men Wheelchair", "Women Wheelchair"]; */}
+        <div className="container">
+          <label htmlFor="_id">Cohort:</label>
           <div className="select">
-            <select required id="cohort" name="cohort" onChange={handleChange}>
+            <select name="cohort_id" onChange={handleChange}>
               <option value="">--Select cohort--</option>
-              <optgroup label="Male">
-                <option value="M18-39">Male 18-39</option>
-                <option value="M40-49">Male 40-49</option>
-                <option value="M50-59">Male 50-59</option>
-                <option value="M60-69">Male 60-69</option>
-                <option value="M70+">Male 70+</option>
-              </optgroup>
-              <optgroup label="Female">
-                <option value="F18-39">Female 18-39</option>
-                <option value="F40-49">Female 40-49</option>
-                <option value="F50-59">Female 50-59</option>
-                <option value="F60-69">Female 60-69</option>
-                <option value="F70+">Female 70+</option>
-              </optgroup>
-              <optgroup label="Wheelchair">
-                <option value="Mwheelchair">Male</option>
-                <option value="Mwheelchair">Female</option>
-              </optgroup>
+              {/* <optgroup label="Male"> */}
+              <option value="1">Male 18-39</option>
+              <option value="3">Male 40-49</option>
+              <option value="5">Male 50-59</option>
+              <option value="7">Male 60-69</option>
+              <option value="9">Male 70+</option>
+              {/* </optgroup> */}
+              {/* <optgroup label="Female"> */}
+              <option value="2">Female 18-39</option>
+              <option value="4">Female 40-49</option>
+              <option value="6">Female 50-59</option>
+              <option value="8">Female 60-69</option>
+              <option value="10">Female 70+</option>
+              {/* </optgroup> */}
+              {/* <optgroup label="Wheelchair"> */}
+              <option value="11">Male</option>
+              <option value="12">Female</option>
+              {/* </optgroup> */}
             </select>
           </div>
-        </div> */}
+        </div>
 
         <hr></hr>
 
@@ -290,9 +294,9 @@ export default function Register() {
               onChange={handleGoalTimeChange}
             ></input>
           </div>
-        </div> */}
+        </div>
 
-        <hr></hr>
+        <hr></hr> */}
 
         {/* WHEELCHAIR CHECKBOX INPUT */}
         <div className="container">
