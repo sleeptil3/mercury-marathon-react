@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mercury-marathon-react/static/css/main.314d21ee.chunk.css",
+    "main.css": "/mercury-marathon-react/static/css/main.073fab9b.chunk.css",
     "main.js": "/mercury-marathon-react/static/js/main.c51ee401.chunk.js",
     "main.js.map": "/mercury-marathon-react/static/js/main.c51ee401.chunk.js.map",
     "runtime-main.js": "/mercury-marathon-react/static/js/runtime-main.4777de15.js",
@@ -8,7 +8,7 @@
     "static/js/2.6c2a6c59.chunk.js": "/mercury-marathon-react/static/js/2.6c2a6c59.chunk.js",
     "static/js/2.6c2a6c59.chunk.js.map": "/mercury-marathon-react/static/js/2.6c2a6c59.chunk.js.map",
     "index.html": "/mercury-marathon-react/index.html",
-    "static/css/main.314d21ee.chunk.css.map": "/mercury-marathon-react/static/css/main.314d21ee.chunk.css.map",
+    "static/css/main.073fab9b.chunk.css.map": "/mercury-marathon-react/static/css/main.073fab9b.chunk.css.map",
     "static/js/2.6c2a6c59.chunk.js.LICENSE.txt": "/mercury-marathon-react/static/js/2.6c2a6c59.chunk.js.LICENSE.txt",
     "static/media/image1.92ac9a54.jpeg": "/mercury-marathon-react/static/media/image1.92ac9a54.jpeg",
     "static/media/jumbo.6f3a229d.jpeg": "/mercury-marathon-react/static/media/jumbo.6f3a229d.jpeg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.4777de15.js",
     "static/js/2.6c2a6c59.chunk.js",
-    "static/css/main.314d21ee.chunk.css",
+    "static/css/main.073fab9b.chunk.css",
     "static/js/main.c51ee401.chunk.js"
   ]
 }
